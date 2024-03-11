@@ -107,11 +107,13 @@ public class GreetingAspect {
 
 
 - @Order
+- @PointCut
+- Clase PointCut para desacoplar codigo
 
-
-
-
-
+--- HIBERNATE ---
+- CLASE @ENTITY
+- Repository extends CrudRepository<Person, Long>{}
+- 
 
 
 
