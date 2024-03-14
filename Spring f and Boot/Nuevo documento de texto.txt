@@ -119,22 +119,27 @@ public class GreetingAspect {
 - UPDATE
 - DELETE
 - JPQL CAMPOS PERSONALIZADOS
-- EVENTOS CICLO DE VIDA HIBERNATE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--- EVENTOS CICLO DE VIDA HIBERNATE ---
+  PREPERSIS POSTPERSIST
+	PREPERSIST
+	PREREMOVE
+	PREUPDATE
+	PREDESTROY
+- @EMBEDDED Y @EMBEDDABLE
+--- HIBERNATE ASOCIACIONES ---
+- LA RELACION MANY TO ONE MUCHOS A UNO
+* Creando repositorios para cliente y invoice
+* configurando la conexion en el properties  
+* ManyToOne
+* ManyToOne con relacion existente
+* La anotacion @JOINCOLUMN (Personaliza los nombres de la llave foranea)
+- LA RELACION ONE TO MANY
+* create update 
+* mapear a tablas intermedias que ya existen
+* eliminar elementos hijos de relaciones
+- Relacion ONE TO ONE
+* one to one bidireccional
+- Relacion ManytoMany
 
 
 
