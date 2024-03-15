@@ -140,8 +140,8 @@ public class GreetingAspect {
 - Relacion ONE TO ONE
 * one to one bidireccional
 - Relacion ManytoMany
-
-
+--- API REST FULL ---
+--- JWT SECURITY ---
 
 
 
